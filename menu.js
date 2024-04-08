@@ -1,5 +1,5 @@
 async function fetchAndDisplayMenu(category) {
-    const baseUrl = "http://localhost:8080/merger";
+    const baseUrl = "https://diner-pancakehouse-merge-backend-latest-mavo.onrender.com/merger";
     const response = await fetch(`${baseUrl}${category}`);
     const menuItems = await response.json();
 
