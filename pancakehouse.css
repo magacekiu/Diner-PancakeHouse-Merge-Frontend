@@ -37,3 +37,16 @@ h1 {
     font-weight: bold;
     color: #007bff;
 }
+
+nav#navbar {
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Adjusted for spacing */
+    align-items: center;
+}
+nav#navbar a, .login, .signup {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
